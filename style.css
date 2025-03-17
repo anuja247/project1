@@ -1,0 +1,115 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #1F2937;
+    display:flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color:grey;
+
+}
+
+.first-box{
+    background-color:#1F2937;
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+    padding: 150px 20px; 
+}
+
+.subheading{
+    color:grey;
+    font-weight:normal;
+}
+.heading{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.main-image{
+    height: 300px;
+    width: 300px;
+    border-radius:50%;
+}
+.season-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 260px;
+}
+
+.second-box{
+   display:flex;
+   flex-direction: column; 
+   gap: 50px;
+   padding: 10px;
+   margin: 100px;
+
+}
+
+.heading2{
+    text-align: center;
+    font-size: 30px;;
+}
+
+.boxes{
+    display: flex;
+ justify-content: center;
+    gap: 5px;
+}
+
+
+.spring,.summer,.autumn,.winter{
+    height: 150px;
+    width: 200px;
+    border-radius: 50px;
+    border: 5px solid #1F2937;
+    
+}
+
+.third-box{
+    padding: 50px;
+    background-color: #D3D3D3;
+    font-style: italic;
+    line-height: 1.6;
+    margin-top: 150px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 100px;
+    background-color:  #1F2937;
+}
+
+button {
+    background-color: white;
+    color: #1F2937; 
+    padding: 5px 10px; 
+    font-size: 14px; 
+    font-weight: bold;
+    border-radius: 8px; 
+}
+
+.footer-line{
+    color: white;
+}
+
+
+.footer-button {
+    width: 100px; 
+    height: 30px; 
+    padding: 0; 
+}
